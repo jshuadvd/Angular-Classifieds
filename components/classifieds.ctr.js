@@ -1,3 +1,11 @@
 (function() {
-  "use strict"
+  
+  "use strict";
+  
+  angular
+    .module('ngClassifieds')
+    .controller('classifiedsCtrl', function() {
+    
+  });
+  
 })();
