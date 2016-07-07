@@ -1,5 +1,5 @@
 angular
   .module('ngClassifieds', ['ngMaterial'])
-  .config(function() {
+  .config(function($mdThemeingProvider) {
     
   })
