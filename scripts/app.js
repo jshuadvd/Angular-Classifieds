@@ -3,5 +3,5 @@ angular
   .config(function($mdThemeingProvider) {
     $mdThemeingProvider.theme('default')
     .primaryPallete('pink')
-    .accentPallete('')
+    .accentPallete('black')
   })
