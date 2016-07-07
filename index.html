@@ -5,7 +5,7 @@
     <title>ngClassifieds</title>
   </head>
   <body ng-app="ngClassifieds" ng-controller="classifiedsCtrl">
-    <input type="text" name="name" placeholder="Enter Your Name!" ng-model="name">
+    <input type="text" name="name" placeholder="Enter Your Name!" ng-model="name.first + name.second">
     <h1>{{ name.first + name.last }}</h1>
     
     <script src="node_modules/angular/angular.js"></script>
