@@ -1,3 +1,3 @@
-angular.module('ngClassifieds', []);
+angular.module('ngClassifieds', ['ngMaterial']);
 
 $scope.message = 'Hello World!';
