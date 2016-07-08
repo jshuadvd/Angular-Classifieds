@@ -1,10 +1,15 @@
 angular
   .module('ngClassifieds', ['ngMaterial'])
-  .config(function($mdThemeingProvider) {
+  .config(function($mdThemingProvider) {
     
-    $mdThemeingProvider.theme('default')
-    .primaryPallete('pink')
-    .accentPallete('black')
+    $mdThemingProvider.theme('default')
+    .primaryPalette('teal')
+    .accentPalette('orange')
     
   })
-  .directive('helloWorld');
+  .directive('helloWorld', function() {
+    // Directive definition Object
+    return {
+      template: '<h1>Hello, World!</h1>'
+    }
+  });
