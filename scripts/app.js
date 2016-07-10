@@ -4,8 +4,7 @@ angular
     
     $mdThemingProvider.theme('default')
     .primaryPalette('blue')
-    .accentPalette('orange')
-    
+    .accentPalette('orange')    
   })
   .directive('helloWorld', function() {
     // Directive definition Object
