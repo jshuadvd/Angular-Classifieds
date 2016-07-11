@@ -17,8 +17,13 @@
             phone: '',
             email: ''
           },
-          
-        }
+          categories: [
+            'Vehicles',
+            'Parts & Accesories' 
+          ],
+          image: 'http://www.blogcdn.com/www.autoblog.com/media/2012/09/01-2012-tesla-model-s-fd-1347336745.jpg',
+          views: '213'        
+        },
       ]
   });  
 })();
