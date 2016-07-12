@@ -5,7 +5,7 @@
     angular
         .module('ngClassifieds')
         .controller('classifiedsCtrl', function($scope) {
-            $scope.classified = [{
+            $scope.classifieds = [{
                 'id': '1',
                 'title': 'First Item',
                 'price': 6000,
