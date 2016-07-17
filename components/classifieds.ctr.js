@@ -5,6 +5,7 @@
     angular
         .module('ngClassifieds')
         .controller('classifiedsCtrl', function($scope, $http) {
+          $http.get('data/classifieds.json');
             $scope.classifieds = 
         });
 })();
