@@ -4,7 +4,7 @@
 
     angular
         .module('ngClassifieds')
-        .controller('classifiedsCtrl', function($scope) {
+        .controller('classifiedsCtrl', function($scope, $http) {
             $scope.classifieds = 
         });
 })();
