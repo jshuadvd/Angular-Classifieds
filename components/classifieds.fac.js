@@ -5,8 +5,12 @@
   .module("ngClassifieds")
   .factory("classifiedsFactory", function functionName() {
     
-    return {
+    function getClassifieds() {
       
+    }
+    
+    return {
+      getClassifieds: getClassifieds
     }
   });
   
