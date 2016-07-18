@@ -5,6 +5,9 @@
   .module("ngClassifieds")
   .factory("classifiedsFactory", function functionName() {
     
+    return {
+      
+    }
   });
   
 })();
