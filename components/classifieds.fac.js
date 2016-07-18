@@ -3,6 +3,8 @@
   
   angular
   .module("ngClassifieds")
-  .factory("classifiedsFactory")
+  .factory("classifiedsFactory", function functionName() {
+    
+  });
   
 })();
