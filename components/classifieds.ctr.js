@@ -3,7 +3,7 @@
     angular
         .module('ngClassifieds')
         .controller('classifiedsCtrl', function($scope, $http, classifiedsFactory) {
-          // why undefined is this
+          // why is this undefined
           classifiedsFactory.getClassifieds().then(function(response) {
             $scope.classifieds = response.data;
           })
