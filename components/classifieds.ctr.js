@@ -4,8 +4,9 @@
         .module('ngClassifieds')
         .controller('classifiedsCtrl', function($scope, $http, classifiedsFactory) {
           // why is this undefined
-          $scope.classifiedsFactory.getClassifieds()
+          classifiedsFactory.getClassifieds()
           .then(function(response) {
+            console.log($scope.classifieds);
             $scope.classifieds = response.data;
           })
         });
