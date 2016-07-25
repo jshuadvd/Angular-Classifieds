@@ -5,6 +5,8 @@
   .module("ngClassifieds")
   .factory("classifiedsFactory", function($http) {
     
+    // Trouble shooting
+    
     function getClassifieds() {
       $http.get('data/classifieds.json');
     }
