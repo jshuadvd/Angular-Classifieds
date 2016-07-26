@@ -9,6 +9,7 @@
       return $http.get('data/classifieds.json');
     }
     
+    // Return the function
     return {
       getClassifieds: getClassifieds
     }
