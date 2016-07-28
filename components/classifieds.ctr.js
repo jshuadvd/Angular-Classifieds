@@ -9,5 +9,8 @@
           .then(function(response) {
             $scope.classifieds = response.data;
           })
+          
+          
+          $scope.
         });
 })();
