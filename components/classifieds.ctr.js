@@ -10,7 +10,7 @@
             $scope.classifieds = response.data;
           })
           
-          $scope.
+          $scope.message = "Hello!";
           
           $scope.openSideBar = function() {
             
