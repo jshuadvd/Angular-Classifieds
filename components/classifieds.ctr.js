@@ -11,6 +11,8 @@
           })
           
           
-          $scope.
+          $scope.openSideBar = function() {
+            
+          }
         });
 })();
