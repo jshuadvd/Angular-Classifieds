@@ -13,6 +13,7 @@
           //
           $scope.message = "Hello!";
           
+          //
           $scope.openSideBar = function() {
             
           }
