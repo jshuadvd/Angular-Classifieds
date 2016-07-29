@@ -15,7 +15,7 @@
           
           // Default SideBar Loader
           $scope.openSideBar = function() {
-            console.log();
+            console.log("what am I?");
           }
         });
 })();
