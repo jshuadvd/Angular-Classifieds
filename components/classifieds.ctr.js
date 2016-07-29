@@ -12,7 +12,7 @@
           
           // Default Message
           $scope.message = "Hello!";
-          console.log($scope.);
+          console.log($scope.message);
           
           // Default SideBar Loader
           $scope.openSideBar = function() {
