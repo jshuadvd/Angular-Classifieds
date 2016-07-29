@@ -12,11 +12,10 @@
           
           // Default Message
           $scope.message = "Hello!";
-          console.log($scope.message);
           
           // Default SideBar Loader
           $scope.openSideBar = function() {
-            console.log("what am I?");
+            console.log("what am I?", response);
           }
         });
 })();
