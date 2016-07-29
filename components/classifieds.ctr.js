@@ -15,6 +15,7 @@
           
           // Default SideBar Loader
           $scope.openSideBar = function() {
+            
           }
         });
 })();
