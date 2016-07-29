@@ -10,7 +10,7 @@
             $scope.classifieds = response.data;
           })
           
-          //
+          // Default Message
           $scope.message = "Hello!";
           
           //
