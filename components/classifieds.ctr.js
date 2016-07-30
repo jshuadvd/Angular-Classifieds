@@ -10,7 +10,6 @@
             $scope.classifieds = response.data;
           })
           
-          // Default Message For Testing
           $scope.message = "Hello!";
           
           $scope.openSideBar = function() {
