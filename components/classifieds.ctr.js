@@ -10,7 +10,7 @@
             $scope.classifieds = response.data;
           })
           
-          // Default Message
+          // Default Message For Testing
           $scope.message = "Hello!";
           
           // Default SideBar Loader
