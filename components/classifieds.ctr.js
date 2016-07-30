@@ -13,7 +13,7 @@
           // Default Message For Testing
           $scope.message = "Hello!";
           
-          // Default SideBar Loader
+          // Default SideBar Loader to Open the Sidebar
           $scope.openSideBar = function() {
             
           }
