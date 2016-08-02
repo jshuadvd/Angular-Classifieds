@@ -5,7 +5,7 @@
   .module("ngClassifieds")
   .factory("classifiedsFactory", function($http) {
       
-    // GetClassifieds  
+    // GetClassifieds method
     function getClassifieds() {
       return $http.get('data/classifieds.json');
     }
