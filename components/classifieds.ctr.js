@@ -17,7 +17,7 @@
             $mdSidenav('left').open();
           }
           
-          $scope.openSideBar = function() {
+          $scope.closeSideBar = function() {
             console.log('Open, or nah?');
             $mdSidenav('left').open();
           }
