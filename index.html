@@ -21,42 +21,42 @@
     </md-toolbar>
     
     <md-sidenav class="md-sidenav-left md-whiteframe-z2" 
-      md-component-id="left" 
-      md-is-locked"true">
-
+    md-component-id="left" 
+    md-is-locked"true">
+    
     <md-toolbar>
-        <h1 class="md-toolbar-tools">Add A Classified</h1>
+      <h1 class="md-toolbar-tools">Add A Classified</h1>
     </md-toolbar>
-
+    
     <md-content layout-padding>
-        <form>
-          <md-input-container>
-            <label for="title">Title</label>
-            <input type="text" md-autofocus id="title" />  
-          </md-input-container>
-          
-          <md-input-container>
-            <label for="price">Price</label>
-            <input type="text" md-autofocus id="price" />  
-          </md-input-container>
-          
-          <md-input-container>
-            <label for="description">Description</label>
-            <input type="text" md-autofocus id="description" />  
-          </md-input-container>
-          
-          <md-input-container>
-            <label for="image">Image Link</label>
-            <input type="text" md-autofocus id="image" />  
-          </md-input-container>
-          
-          <md-button class="md-primary">Save</md-button>
-          <md-button class="md-primary">Edit</md-button>
-          <md-button class="md-warn">Cancel</md-button>
-        </form>    
+      <form>
+        <md-input-container>
+          <label for="title">Title</label>
+          <input type="text" md-autofocus id="title" />  
+        </md-input-container>
+        
+        <md-input-container>
+          <label for="price">Price</label>
+          <input type="text" md-autofocus id="price" />  
+        </md-input-container>
+        
+        <md-input-container>
+          <label for="description">Description</label>
+          <input type="text" md-autofocus id="description" />  
+        </md-input-container>
+        
+        <md-input-container>
+          <label for="image">Image Link</label>
+          <input type="text" md-autofocus id="image" />  
+        </md-input-container>
+        
+        <md-button class="md-primary">Save</md-button>
+        <md-button class="md-primary">Edit</md-button>
+        <md-button class="md-warn">Cancel</md-button>
+      </form>    
     </md-content> 
-
-</md-sidenav>
+    
+  </md-sidenav>
     
     <md-content class="md-padding" layout="row" layout-wrap>
       <md-card flex="30" ng-repeat="classified in classifieds">
