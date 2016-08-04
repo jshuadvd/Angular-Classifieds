@@ -13,7 +13,7 @@
           $scope.message = "Hello!";
           
           $scope.openSideBar = function() {
-            $mdSidenav();
+            $mdSidenav('left');
           }
         });
 })();
