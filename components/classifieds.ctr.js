@@ -17,7 +17,7 @@
           }
           
           $scope.closeSideBar = function() {
-            $mdSidenav('left').open();
+            $mdSidenav('left').close();
           }
         });
 })();
