@@ -13,6 +13,7 @@
           $scope.message = "Hello!";
           
           $scope.openSideBar = function() {
+            console.log('Open, or nah?');
             $mdSidenav('left');
           }
         });
