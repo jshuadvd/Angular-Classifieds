@@ -20,7 +20,7 @@
             $mdSidenav('left').close();
           }
           
-          $scope.saveClassifieds = function() {
+          $scope.saveClassified = function() {
             
           }
         });
