@@ -19,5 +19,7 @@
           $scope.closeSideBar = function() {
             $mdSidenav('left').close();
           }
+          
+          $scope.
         });
 })();
