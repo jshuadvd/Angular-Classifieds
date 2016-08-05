@@ -20,7 +20,7 @@
             $mdSidenav('left').close();
           }
           
-          $scope.saveClassified = function() {
+          $scope.saveClassified = function(classified) {
             $scope.classifieds
           }
         });
