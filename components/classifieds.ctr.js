@@ -21,7 +21,7 @@
           }
           
           $scope.saveClassified = function(classified) {
-              if (condition) {
+              if (classified) {
                   
               }
             $scope.classifieds.push(classified);
