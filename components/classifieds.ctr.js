@@ -21,6 +21,9 @@
           }
           
           $scope.saveClassified = function(classified) {
+              if (condition) {
+                  
+              }
             $scope.classifieds.push(classified);
           }
         });
