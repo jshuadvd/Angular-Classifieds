@@ -21,7 +21,7 @@
           }
           
           $scope.saveClassified = function(classified) {
-            $scope.classifieds
+            $scope.classifieds.push();
           }
         });
 })();
