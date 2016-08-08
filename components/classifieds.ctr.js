@@ -19,7 +19,6 @@
           $scope.closeSideBar = function() {
             $mdSidenav('left').close();
           }
-          // Method to save the classified
           $scope.saveClassified = function(classified) {
               if (classified) {
                   $scope.classifieds.push(classified);
