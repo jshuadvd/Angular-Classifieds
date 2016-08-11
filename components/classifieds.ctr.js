@@ -12,7 +12,7 @@
         });
         
         var contact = {
-            name: "",
+            name: "Joshua David",
         };
         
         $scope.message = "Hello!";
