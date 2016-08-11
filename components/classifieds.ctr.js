@@ -11,7 +11,9 @@
             $scope.classifieds = response.data;
         });
         
-        var contact = {};
+        var contact = {
+            name: "",
+        };
         
         $scope.message = "Hello!";
         
