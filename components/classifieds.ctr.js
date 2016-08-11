@@ -13,7 +13,7 @@
         
         var contact = {
             name: "Joshua David",
-            phone: "",
+            phone: "(555) 555-5555",
         };
         
         $scope.message = "Hello!";
