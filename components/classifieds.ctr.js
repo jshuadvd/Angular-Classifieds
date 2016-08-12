@@ -17,8 +17,7 @@
             email: "test@test.com"
         };
         
-        $scope.message = "Hello!";
-        
+s        
         $scope.openSideBar = function() {
             $mdSidenav('left').open();
         }
