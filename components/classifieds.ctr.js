@@ -27,7 +27,7 @@
         
         $scope.saveClassified = function(classified) {
             if (classified) {
-                classified.contact
+                classified.contact = contact;
                 $scope.classifieds.push(classified);
                 $scope.classified = {};
                 $scope.closeSideBar();
