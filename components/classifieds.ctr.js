@@ -30,6 +30,7 @@
             if (classified) {
                 $scope.classifieds.push(classified);
                 $scope.classified = {};
+                
                 $scope.closeSideBar();
             }
         }
