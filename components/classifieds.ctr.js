@@ -32,6 +32,7 @@
                 $scope.classified = {};
                 $scope.closeSideBar();
                 $mdToast.simple()
+                    .contents();
             }
         }
         
