@@ -14,6 +14,7 @@
         var contact = {
             name: "Joshua David",
             phone: "(555) 555-5555",
+            email:
         };
         
         $scope.message = "Hello!";
