@@ -31,6 +31,7 @@
                 $scope.classifieds.push(classified);
                 $scope.classified = {};
                 $scope.closeSideBar();
+                $mdToast.
             }
         }
         
