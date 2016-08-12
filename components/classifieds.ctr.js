@@ -33,5 +33,7 @@
                 $scope.closeSideBar();
             }
         }
+        
+        
     });
 })();
