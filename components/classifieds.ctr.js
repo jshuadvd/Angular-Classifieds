@@ -16,8 +16,7 @@
             phone: "(555) 555-5555",
             email: "test@test.com"
         };
-        
-s        
+             
         $scope.openSideBar = function() {
             $mdSidenav('left').open();
         }
