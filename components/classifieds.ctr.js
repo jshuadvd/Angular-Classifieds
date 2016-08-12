@@ -4,7 +4,7 @@
     
     angular
     .module('ngClassifieds')
-    .controller('classifiedsCtrl', function($scope, $http, classifiedsFactory, $mdSidenav) {
+    .controller('classifiedsCtrl', function($scope, $http, classifiedsFactory, $mdSidenav, $mdToast) {
         
         classifiedsFactory.getClassifieds()
         .then(function(response) {
