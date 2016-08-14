@@ -33,7 +33,8 @@
                 $scope.closeSideBar();
                 $mdToast.simple()
                     .content("Classified Saved!")
-                    .position('top, right');
+                    .position('top, right')
+                    .hideDefault()
             }
         }
         
