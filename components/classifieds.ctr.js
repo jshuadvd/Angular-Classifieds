@@ -34,7 +34,7 @@
                 $mdToast.simple()
                     .content("Classified Saved!")
                     .position('top, right')
-                    .hideDelay()
+                    .hideDelay(3000)
             }
         }
         
