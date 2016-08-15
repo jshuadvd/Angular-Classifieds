@@ -38,7 +38,9 @@
             }
         }
         
-        
+        $scope.editClassified = function() {
+            
+        }
         
         
     });
