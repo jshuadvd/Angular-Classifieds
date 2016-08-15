@@ -50,7 +50,7 @@
         </md-input-container>
         
         <md-button ng-click="saveClassified(classified)" class="md-primary">Save</md-button>
-        <md-button ng-if="" class="md-primary">Edit</md-button>
+        <md-button ng-if="editing" class="md-primary">Edit</md-button>
         <md-button class="md-warn" ng-click="closeSideBar()">Cancel</md-button>      
         <pre>
           {{classified | json}}
