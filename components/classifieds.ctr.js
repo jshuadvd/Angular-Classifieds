@@ -40,7 +40,8 @@
         
         $scope.editClassified = function() {
             $scope.editing = true;   
-            $scope.openSideBar(); 
+            $scope.openSideBar();
+            $scope.classified = classified; 
         }
         
         
