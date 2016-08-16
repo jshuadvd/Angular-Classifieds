@@ -44,5 +44,9 @@
             $scope.classified = classified; 
         }
         
+        $scope.saveEdit = function() {
+            
+        }
+        
     });
 })();
