@@ -39,7 +39,8 @@
         }
         
         $scope.editClassified = function() {
-            $scope.editing = true;    
+            $scope.editing = true;   
+            $scope. 
         }
         
         
