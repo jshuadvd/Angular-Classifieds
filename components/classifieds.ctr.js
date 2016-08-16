@@ -44,6 +44,5 @@
             $scope.classified = classified; 
         }
         
-        
     });
 })();
