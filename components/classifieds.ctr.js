@@ -45,7 +45,7 @@
         }
         
         $scope.saveEdit = function() {
-            
+            $scope.editing = false;
         }
         
     });
