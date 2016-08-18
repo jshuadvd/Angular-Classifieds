@@ -48,7 +48,6 @@
             showToast("Edit saved!");
         }
         
-        // Show The Toast
         function showToast(message, delay) {
             delay = 3000;
             $mdToast.show(
