@@ -48,7 +48,7 @@
             showToast("Edit saved!");
         }
         
-        function showToast(message) {
+        function showToast(message, delay) {
             $mdToast.show(
                 $mdToast.simple()
                 .content(message)
