@@ -49,7 +49,7 @@
         function showToast(message) {
             $mdToast.show(
                 $mdToast.simple()
-                .content("Classified Saved!")
+                .content()
                 .position('top, right')
                 .hideDelay(3000)
             );
