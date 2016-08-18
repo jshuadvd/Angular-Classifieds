@@ -46,7 +46,7 @@
             $scope.closeSideBar();
         }
         
-        function showToast() {
+        function showToast(message) {
             $mdToast.show(
                 $mdToast.simple()
                 .content("Classified Saved!")
