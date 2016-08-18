@@ -48,13 +48,12 @@
             showToast("Edit saved!");
         }
         
-        function showToast(message, delay) {
-            delay = 3000;
+        function showToast(message) {
             $mdToast.show(
                 $mdToast.simple()
                 .content(message)
                 .position('top, right')
-                .hideDelay(delay);
+                .hideDelay(3000);
             );
         }
         
