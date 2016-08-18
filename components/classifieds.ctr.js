@@ -45,6 +45,7 @@
             $scope.editing = false;
             $scope.classified = {};
             $scope.closeSideBar();
+            showToast("Classified saved!");
         }
         
         function showToast(message) {
