@@ -49,7 +49,7 @@
         function showToast(message) {
             $mdToast.show(
                 $mdToast.simple()
-                .content()
+                .content(message)
                 .position('top, right')
                 .hideDelay(3000)
             );
