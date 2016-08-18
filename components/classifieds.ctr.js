@@ -31,6 +31,9 @@
                 $scope.classifieds.push(classified);
                 $scope.classified = {};
                 $scope.closeSideBar();
+                $mdToast.show(
+                    
+                )
                 $mdToast.simple()
                     .content("Classified Saved!")
                     .position('top, right')
