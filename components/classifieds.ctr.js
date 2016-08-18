@@ -50,5 +50,9 @@
             $scope.closeSideBar();
         }
         
+        function showToast() {
+            
+        }
+        
     });
 })();
