@@ -49,11 +49,12 @@
         }
         
         function showToast(message, delay) {
+            delay = 3000;
             $mdToast.show(
                 $mdToast.simple()
                 .content(message)
                 .position('top, right')
-                .hideDelay(3000)
+                .hideDelay(delay)
             );
         }
         
