@@ -32,12 +32,11 @@
                 $scope.classified = {};
                 $scope.closeSideBar();
                 $mdToast.show(
-                    
-                )
-                $mdToast.simple()
+                    $mdToast.simple()
                     .content("Classified Saved!")
                     .position('top, right')
                     .hideDelay(3000)
+                );
             }
         }
         
