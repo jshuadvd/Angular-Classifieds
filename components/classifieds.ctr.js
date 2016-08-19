@@ -1,7 +1,6 @@
 (function() {
     
-    "use strict";
-    
+    "use strict";    
     angular
     .module('ngClassifieds')
     .controller('classifiedsCtrl', function($scope, $http, classifiedsFactory, $mdSidenav, $mdToast) {
