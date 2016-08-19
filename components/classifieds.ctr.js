@@ -3,7 +3,7 @@
     "use strict";    
     angular
     .module('ngClassifieds')
-    .controller('classifiedsCtrl', function($scope, $http, classifiedsFactory, $mdSidenav, $mdToast) {
+    .controller('classifiedsCtrl', function($scope, $http, classifiedsFactory, $mdSidenav, $mdToast, $mdDialog) {
         
         classifiedsFactory.getClassifieds()
         .then(function(response) {
