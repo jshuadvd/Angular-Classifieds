@@ -48,7 +48,7 @@
         }
         
         $scope.deleteClassified = function(classified) {
-            var index = $scope.classified;
+            var index = $scope.classifieds;
         }
         
         function showToast(message, delay) {
