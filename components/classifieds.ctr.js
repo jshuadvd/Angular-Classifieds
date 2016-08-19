@@ -50,9 +50,8 @@
         $scope.deleteClassified = function(classified) {
             var index = $scope.classifieds.indexOf(classified);
             if (confirm("are you sure?")) {
-                
+                $scope.classifieds.splice(index, 1);
             }
-            $scope.classifieds.splice(index, 1);
         }
         
         function showToast(message, delay) {
