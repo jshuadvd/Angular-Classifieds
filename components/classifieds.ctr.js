@@ -47,6 +47,10 @@
             showToast("Edit saved!");
         }
         
+        $scope.deleteClassified = function() {
+            
+        }
+        
         function showToast(message, delay) {
             delay = 3000;
             $mdToast.show(
