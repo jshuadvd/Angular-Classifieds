@@ -49,7 +49,7 @@
         
         $scope.deleteClassified = function(classified) {
             var index = $scope.classifieds.indexOf(classified);
-            $scope.classifieds.splice(index);
+            $scope.classifieds.splice(index, 1);
         }
         
         function showToast(message, delay) {
