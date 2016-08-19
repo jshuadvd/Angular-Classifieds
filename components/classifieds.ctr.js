@@ -48,6 +48,8 @@
         }
         
         $scope.deleteClassified = function(classified) {
+            var confirm = $mdDialog.confirm();
+            
             var index = $scope.classifieds.indexOf(classified);
             if (confirm("are you sure?")) {
                 $scope.classifieds.splice(index, 1);
