@@ -47,7 +47,7 @@
             showToast("Edit saved!");
         }
         
-        $scope.deleteClassified = function() {
+        $scope.deleteClassified = function(classified) {
             
         }
         
