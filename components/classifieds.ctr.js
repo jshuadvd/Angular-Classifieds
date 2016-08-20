@@ -49,6 +49,7 @@
         
         $scope.deleteClassified = function(classified) {
             var confirm = $mdDialog.confirm();
+            .title
             
             var index = $scope.classifieds.indexOf(classified);
             if (confirm("are you sure?")) {
