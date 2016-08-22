@@ -47,7 +47,7 @@
             showToast("Edit saved!");
         }
         
-        $scope.deleteClassified = function(classified) {
+        $scope.deleteClassified = function(event, classified) {
             var confirm = $mdDialog.confirm();
             .title('Are you sure you want to delete' + classified.title + '?')
             .ok('Yes')
