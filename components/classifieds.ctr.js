@@ -52,6 +52,7 @@
             .title('Are you sure you want to delete' + classified.title + '?')
             .ok('Yes')
             .cancel('No')
+            .targetEvent(event)
             
             var index = $scope.classifieds.indexOf(classified);
             if (confirm("are you sure?")) {
