@@ -53,7 +53,7 @@
                 .ok('Yes')
                 .cancel('No')
                 .targetEvent(event);
-            $mdDialog.show(confirm)
+            $mdDialog.show(confirm).then()
             
             var index = $scope.classifieds.indexOf(classified);
             if (confirm("are you sure?")) {
