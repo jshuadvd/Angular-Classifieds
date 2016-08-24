@@ -58,7 +58,7 @@
                 $scope.classifieds.splice(index, 1);
             }, function() {
                 $scope.staus = "";
-            })
+            });
             
             var index = $scope.classifieds.indexOf(classified);
             if (confirm("are you sure?")) {
