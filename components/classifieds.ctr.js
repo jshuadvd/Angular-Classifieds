@@ -56,6 +56,8 @@
             $mdDialog.show(confirm).then(function() {
                 var index = $scope.classifieds.indexOf(classified);
                 $scope.classifieds.splice(index, 1);
+            }, function() {
+                
             })
             
             var index = $scope.classifieds.indexOf(classified);
