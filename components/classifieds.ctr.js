@@ -8,7 +8,7 @@
         classifiedsFactory.getClassifieds()
         .then(function(response) {
             $scope.classifieds = response.data;
-            $scope.categories = getCategories();
+            $scope.categories = getCategories($scope.classifieds);
         });
         
         var contact = {
