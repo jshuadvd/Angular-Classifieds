@@ -25,7 +25,7 @@
       </div>
     </md-toolbar>
     
-    <div class="filters" layout="row" layout="center center" ng-show="showFilters">
+    <div class="filters" layout="row" layout-align="center center" ng-show="showFilters">
         <md-input-container>
             <label>Enter Search Term</label>
             <input type="text" ng-model="classifiedsFilter"/>
@@ -71,9 +71,7 @@
         <md-button ng-if="!editing" ng-click="saveClassified(classified)" class="md-primary">Save</md-button>
         <md-button ng-click="saveEdit()" ng-if="editing" class="md-primary">Edit</md-button>
         <md-button class="md-warn" ng-click="closeSideBar()">Cancel</md-button>      
-        <pre>
-          {{classified | json}}
-        </pre>
+        <pre>{{classified | json}}</pre>
       </form>    
     </md-content> 
     
