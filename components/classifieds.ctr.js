@@ -49,7 +49,7 @@
         }
         
         $scope.deleteClassified = function(event, classified) {
-            var confirm = $mdDialog.confirm();
+            var confirm = $mdDialog.confirm()
                 .title('Are you sure you want to delete' + classified.title + '?')
                 .ok('Yes')
                 .cancel('No')
