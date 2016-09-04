@@ -85,7 +85,9 @@
         function getCategories(classifieds) {
             var categories = [];
             angular.forEach(classifieds, function(item) {
-                
+                angular.forEach(item.categories, function(category) {
+                    
+                })
             });
         }
         
