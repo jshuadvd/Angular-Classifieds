@@ -82,7 +82,7 @@
             );
         }
         
-        function getCategories() {
+        function getCategories(classifieds) {
             
         }
         
