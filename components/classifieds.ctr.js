@@ -84,6 +84,7 @@
         
         function getCategories(classifieds) {
             var categories = [];
+            angular.forEach(classifieds);
         }
         
     });
