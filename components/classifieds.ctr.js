@@ -89,6 +89,7 @@
                     catergories.push(category);
                 })
             });
+            return _.uniq(categories)
         }
         
     });
