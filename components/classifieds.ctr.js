@@ -16,7 +16,7 @@
             email: "test@test.com"
         };
              
-        $scope.categories = getCategories();
+        $scope.categories = getCategories($scope.classifiedsData);
         
         $scope.openSideBar = function() {
             $mdSidenav('left').open();
