@@ -80,7 +80,9 @@
   </md-sidenav>
     
     <md-content class="md-padding" layout="row" layout-wrap>
-      <md-card flex="30" ng-repeat="classified in classifieds | filter: classifiedsFilter" flex="30">
+      <md-card flex="30" ng-repeat="classified in classifieds | 
+                                    filter: classifiedsFilter | 
+                                    filter: " flex="30">
         <img ng-src="{{classified.image}}" alt="" />
         <md-card-content>
           
