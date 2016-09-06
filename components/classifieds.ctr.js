@@ -8,6 +8,7 @@
         classifiedsFactory.getClassifieds()
         .then(function(response) {
             $scope.classifieds = response.data;
+            $scope.categories = getCategories($scope.classifieds);
         });
         
         var contact = {
@@ -16,7 +17,6 @@
             email: "test@test.com"
         };
              
-        $scope.categories = getCategories($scope.classifieds);
         
         $scope.openSideBar = function() {
             $mdSidenav('left').open();
