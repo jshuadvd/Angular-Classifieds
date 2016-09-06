@@ -89,7 +89,7 @@
                     catergories.push(category);
                 })
             });
-            return _.uniq(categories)
+            return _.uniq(categories);
         }
         
     });
