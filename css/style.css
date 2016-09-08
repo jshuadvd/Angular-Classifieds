@@ -1,3 +1,8 @@
 button .material-icons {
 	margin-top: 7px;
 }
+
+.classified.ng-enter, .classified.ng-move {
+	transition: 0.4s all;
+	opacity: 0;
+}
