@@ -6,3 +6,5 @@ button .material-icons {
 	transition: 0.4s all;
 	opacity: 0;
 }
+
+.classified.ng-enter.ng-enter-active, 
