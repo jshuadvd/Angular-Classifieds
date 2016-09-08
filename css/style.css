@@ -10,3 +10,8 @@ button .material-icons {
 .classified.ng-enter.ng-enter-active, .classified.ng-move.ng-move-active {
 	opacity: 1;
 }
+
+
+@@keyframes fade_classified {
+	
+}
