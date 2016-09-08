@@ -7,4 +7,6 @@ button .material-icons {
 	opacity: 0;
 }
 
-.classified.ng-enter.ng-enter-active, 
+.classified.ng-enter.ng-enter-active, .classified.ng-move.ng-move-active {
+	
+}
