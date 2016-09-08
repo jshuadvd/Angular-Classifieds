@@ -12,6 +12,7 @@ button .material-icons {
 }
 
 
-@@keyframes fade_classified {
-	
+@keyframes fade_classified {
+	from { opacity: 1; }
+	to { opacity: 0; }
 }
