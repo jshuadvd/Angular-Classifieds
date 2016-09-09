@@ -12,7 +12,7 @@ button .material-icons {
 }
 
 .classified.ng-leave {
-	animation: 0.4s
+	animation: 0.4s fade_classified;
 }
 
 @keyframes fade_classified {
