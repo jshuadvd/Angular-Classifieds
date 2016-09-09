@@ -11,6 +11,9 @@ button .material-icons {
 	opacity: 1;
 }
 
+.classified.ng-leave {
+	
+}
 
 @keyframes fade_classified {
 	from { opacity: 1; }
