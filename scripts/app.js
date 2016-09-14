@@ -7,7 +7,9 @@ angular
     .accentPalette('orange')
     
     $stateProvider
-    .state('stateone', )    
+    .state('stateone', {
+        url: '/stateone'
+    })    
   })
   .directive('helloWorld', function() {
     // Directive definition Object
