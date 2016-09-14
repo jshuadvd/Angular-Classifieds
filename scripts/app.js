@@ -1,6 +1,6 @@
 angular
   .module('ngClassifieds', ['ngMaterial', 'ui.router'])
-  .config(function($mdThemingProvider) {
+  .config(function($mdThemingProvider, $stateProvider) {
     
     $mdThemingProvider.theme('default')
     .primaryPalette('blue')
