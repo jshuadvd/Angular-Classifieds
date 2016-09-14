@@ -9,6 +9,7 @@ angular
     $stateProvider
     .state('stateone', {
         url: '/stateone'
+        template: '<h1>State One</h1>'
     })    
   })
   .directive('helloWorld', function() {
