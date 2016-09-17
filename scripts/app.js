@@ -14,7 +14,7 @@ angular
     .state('statetwo', {
         url: '/statetwo',
         template: '<h1>State Two</h1>'
-    })
+    });
   })
   .directive('helloWorld', function() {
     // Directive definition Object
