@@ -12,7 +12,7 @@ angular
         template: '<h1>State One</h1>'
     })    
     .state('statetwo', {
-        
+        url: '/statetwo',
     })
   })
   .directive('helloWorld', function() {
