@@ -7,7 +7,7 @@ angular
     .accentPalette('orange')
     
     $stateProvider
-    .state('stateone', {
+    .state('one', {
         url: '/stateone'
         template: '<h1>State One</h1>'
     })    
