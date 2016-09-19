@@ -11,7 +11,7 @@ angular
         url: '/stateone'
         template: '<h1>State One</h1>'
     })    
-    .state('statetwo', {
+    .state('two', {
         url: '/statetwo',
         template: '<h1>State Two</h1>'
     });
