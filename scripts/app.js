@@ -16,7 +16,7 @@ angular
         template: '<h1>State Two</h1> <md-button ui-sref="two.more">Go to nested state.</md-button> <ui-view></ui-view>' 
     })
     .state('two.more', {
-        
+        url: ''
     });
     
   })
