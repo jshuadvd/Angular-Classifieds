@@ -13,7 +13,7 @@ angular
     })    
     .state('two', {
         url: '/statetwo',
-        template: '<h1>State Two</h1> <md-button ui-sref="two"><ui-view></ui-view></md-button>' 
+        template: '<h1>State Two</h1> <md-button ui-sref="two.more"><ui-view></ui-view></md-button>' 
     });
   })
   .directive('helloWorld', function() {
