@@ -10,6 +10,7 @@ angular
     .state('one', {
         url: '/stateone'
         template: '<h1>State One</h1>',
+        controller:
     })    
     .state('two', {
         url: '/statetwo',
