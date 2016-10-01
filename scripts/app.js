@@ -17,7 +17,7 @@ angular
     })
     .state('two.more', {
         url: '/more'
-        template: '<p></p>'
+        template: '<p>This is the deeper state</p>'
     });
     
   })
