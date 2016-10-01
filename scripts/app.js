@@ -17,7 +17,7 @@ angular
     })
     .state('two.more', {
         url: '/more'
-        template: 
+        template: ''
     });
     
   })
