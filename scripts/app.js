@@ -9,7 +9,7 @@ angular
     $stateProvider
     .state('one', {
         url: '/stateone'
-        template: '<h1>State One</h1>'
+        template: '<h1>State One</h1>',
     })    
     .state('two', {
         url: '/statetwo',
