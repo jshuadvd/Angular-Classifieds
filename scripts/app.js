@@ -28,4 +28,4 @@ angular
       template: '<h1>Hello, World!</h1>'
     }
   })
-  .controller();
+  .controller('stateOneCtrl', function(){});
