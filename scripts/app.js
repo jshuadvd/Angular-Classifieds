@@ -29,5 +29,5 @@ angular
     }
   })
   .controller('stateOneCtrl', function($scope) {
-      
+      $scope.message = "";
   });
