@@ -29,5 +29,5 @@ angular
     }
   })
   .controller('stateOneCtrl', function($scope) {
-      $scope.message = "Hey from state one!";
+      this.message = "Hey from state one!";
   });
