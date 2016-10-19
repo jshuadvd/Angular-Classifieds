@@ -12,8 +12,6 @@ angular
         template: '<h1>{{ stateone.message }}</h1>',
         controller: 'stateOneCtrl as stateone'
     })    
-    
-    
   })
   .directive('helloWorld', function() {
     // Directive definition Object
