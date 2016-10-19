@@ -9,7 +9,7 @@ angular
     $stateProvider
     .state('classifieds', {
         url: '/classifieds'
-        template: '<h1>{{ stateone.message }}</h1>',
+        template: '',
         controller: 'stateOneCtrl as stateone'
     })    
   })
