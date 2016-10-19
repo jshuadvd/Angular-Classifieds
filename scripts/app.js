@@ -28,7 +28,3 @@ angular
       template: '<h1>Hello, World!</h1>'
     }
   })
-  .controller('stateOneCtrl', function() {
-      var vm = this;
-      vm.message = "Hey from state one!";
-  });
