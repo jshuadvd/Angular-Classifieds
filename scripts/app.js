@@ -7,7 +7,7 @@ angular
     .accentPalette('orange')
     
     $stateProvider
-    .state('one', {
+    .state('classifieds', {
         url: '/stateone'
         template: '<h1>{{ stateone.message }}</h1>',
         controller: 'stateOneCtrl as stateone'
