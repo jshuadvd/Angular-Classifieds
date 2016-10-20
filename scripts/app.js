@@ -10,7 +10,7 @@ angular
     .state('classifieds', {
         url: '/classifieds'
         template: 'components/classifieds/classifieds.tpl.html',
-        controller: 'stateOneCtrl as stateone'
+        controller: 'classifiedsCtrl as stateone'
     })    
   })
   .directive('helloWorld', function() {
