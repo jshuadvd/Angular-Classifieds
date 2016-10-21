@@ -13,9 +13,3 @@ angular
         controller: 'classifiedsCtrl as vm'
     })    
   })
-  .directive('helloWorld', function() {
-    // Directive definition Object
-    return {
-      template: '<h1>Hello, World!</h1>'
-    }
-  })
