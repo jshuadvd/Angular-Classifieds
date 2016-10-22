@@ -4,6 +4,7 @@
     angular
     .module('ngClassifieds')
     .controller('classifiedsCtrl', function($scope, $http, classifiedsFactory, $mdSidenav, $mdToast, $mdDialog) {
+        var vm = this;
         
         classifiedsFactory.getClassifieds()
         .then(function(response) {
