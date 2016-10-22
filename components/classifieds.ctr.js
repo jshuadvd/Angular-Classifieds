@@ -4,8 +4,10 @@
     angular
     .module('ngClassifieds')
     .controller('classifiedsCtrl', function($scope, $http, classifiedsFactory, $mdSidenav, $mdToast, $mdDialog) {
-        var vm = this;
         
+        var vm = this;   
+        vm.openSideBar = openSideBar;
+             
         classifiedsFactory.getClassifieds()
         .then(function(response) {
             $scope.classifieds = response.data;
@@ -19,7 +21,7 @@
         };
              
         
-        $scope.openSideBar = function() {
+        function openSideBar() {
             $mdSidenav('left').open();
         }
         
