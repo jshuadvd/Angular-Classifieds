@@ -9,6 +9,7 @@
         
         vm.openSideBar = openSideBar;
         vm.closedSideBar = closedSideBar;
+        vm.saveClassified;
              
         classifiedsFactory.getClassifieds()
         .then(function(response) {
