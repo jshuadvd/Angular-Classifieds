@@ -6,7 +6,9 @@
     .controller('classifiedsCtrl', function($scope, $http, classifiedsFactory, $mdSidenav, $mdToast, $mdDialog) {
         
         var vm = this;   
+        
         vm.openSideBar = openSideBar;
+        vm.closedSideBar;
              
         classifiedsFactory.getClassifieds()
         .then(function(response) {
