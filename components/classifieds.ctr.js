@@ -8,7 +8,7 @@
         var vm = this;   
         
         vm.openSideBar = openSideBar;
-        vm.closedSideBar;
+        vm.closedSideBar = closedSideBar;
              
         classifiedsFactory.getClassifieds()
         .then(function(response) {
