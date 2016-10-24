@@ -32,7 +32,7 @@
             $mdSidenav('left').close();
         }
         
-        $scope.saveClassified = function(classified) {
+        function saveClassified(classified) {
             if (classified) {
                 classified.contact = contact;
                 $scope.classifieds.push(classified);
