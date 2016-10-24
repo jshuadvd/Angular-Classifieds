@@ -28,7 +28,7 @@
             $mdSidenav('left').open();
         }
         
-        $scope.closeSideBar = function() {
+        function closeSideBar() {
             $mdSidenav('left').close();
         }
         
