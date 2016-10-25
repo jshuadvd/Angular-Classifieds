@@ -42,7 +42,7 @@
             }
         }
         
-        $scope.editClassified = function(classified) {
+        function editClassified(classified) {
             $scope.editing = true;   
             $scope.openSideBar();
             $scope.classified = classified; 
