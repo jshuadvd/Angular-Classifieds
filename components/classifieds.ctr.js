@@ -48,7 +48,7 @@
             $scope.classified = classified; 
         }
         
-        $scope.saveEdit = function() {
+        function saveEdit() {
             $scope.editing = false;
             $scope.classified = {};
             $scope.closeSideBar();
