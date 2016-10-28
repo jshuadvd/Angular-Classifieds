@@ -11,7 +11,7 @@
         vm.closedSideBar = closedSideBar;
         vm.saveClassified = saveClassified;
         vm.editClassified = editClassified;
-        vm.saveEdit;
+        vm.saveEdit = saveEdit;
              
         classifiedsFactory.getClassifieds()
         .then(function(response) {
