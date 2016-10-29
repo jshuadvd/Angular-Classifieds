@@ -50,7 +50,7 @@
         }
         
         function editClassified(classified) {
-            $scope.editing = true;   
+            vm.editing = true;   
             $scope.openSideBar();
             $scope.classified = classified; 
         }
