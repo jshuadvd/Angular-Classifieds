@@ -16,6 +16,7 @@
         
         vm.classifieds;
         vm.categories;
+        vm.editing;
              
         classifiedsFactory.getClassifieds()
         .then(function(response) {
