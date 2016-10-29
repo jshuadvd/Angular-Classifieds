@@ -13,6 +13,9 @@
         vm.editClassified = editClassified;
         vm.saveEdit = saveEdit;
         vm.deleteClassified = deleteClassified;
+        
+        vm.classifieds;
+        vm.categories;
              
         classifiedsFactory.getClassifieds()
         .then(function(response) {
