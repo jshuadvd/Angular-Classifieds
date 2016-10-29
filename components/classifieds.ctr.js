@@ -56,7 +56,7 @@
         }
         
         function saveEdit() {
-            $scope.editing = false;
+            vm.editing = false;
             $scope.classified = {};
             $scope.closeSideBar();
             showToast("Edit saved!");
