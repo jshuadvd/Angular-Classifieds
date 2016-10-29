@@ -12,7 +12,7 @@
         vm.saveClassified = saveClassified;
         vm.editClassified = editClassified;
         vm.saveEdit = saveEdit;
-        vm.deleteClassified;
+        vm.deleteClassified = deleteClassified;
              
         classifiedsFactory.getClassifieds()
         .then(function(response) {
