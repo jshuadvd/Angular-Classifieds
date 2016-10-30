@@ -51,7 +51,7 @@
         
         function editClassified(classified) {
             vm.editing = true;   
-            $scope.openSideBar();
+            vm.openSideBar();
             vm..classified = classified; 
         }
         
