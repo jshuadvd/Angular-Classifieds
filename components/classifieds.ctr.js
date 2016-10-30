@@ -42,9 +42,9 @@
         function saveClassified(classified) {
             if (classified) {
                 classified.contact = contact;
-                $scope.classifieds.push(classified);
-                $scope.classified = {};
-                $scope.closeSideBar();
+                vm.classifieds.push(classified);
+                vm.classified = {};
+                vm.closeSideBar();
                 showToast("Classified saved!");
             }
         }
