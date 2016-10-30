@@ -20,8 +20,8 @@
              
         classifiedsFactory.getClassifieds()
         .then(function(response) {
-            $scope.classifieds = response.data;
-            $scope.categories = getCategories($scope.classifieds);
+            vm.classifieds = response.data;
+            vm.categories = getCategories($scope.classifieds);
         });
         
         var contact = {
