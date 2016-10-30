@@ -52,7 +52,7 @@
         function editClassified(classified) {
             vm.editing = true;   
             $scope.openSideBar();
-            $scope.classified = classified; 
+            vm..classified = classified; 
         }
         
         function saveEdit() {
