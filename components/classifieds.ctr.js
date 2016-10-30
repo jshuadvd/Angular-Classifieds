@@ -69,8 +69,8 @@
                 .cancel('No')
                 .targetEvent(event);
             $mdDialog.show(confirm).then(function() {
-                var index = $scope.classifieds.indexOf(classified);
-                $scope.classifieds.splice(index, 1);
+                var index = vm.classifieds.indexOf(classified);
+                vm.classifieds.splice(index, 1);
             }, function() {
                 
             });
