@@ -77,7 +77,7 @@
             
             var index = $scope.classifieds.indexOf(classified);
             if (confirm("are you sure?")) {
-                $scope.classifieds.splice(index, 1);
+                vm.classifieds.splice(index, 1);
             }
         }
         
