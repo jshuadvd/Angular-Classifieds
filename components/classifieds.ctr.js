@@ -70,7 +70,7 @@
                 .cancel('No')
                 .targetEvent(event);
             $mdDialog.show(confirm).then(function() {
-                var index = vm.classifieds.indexOf(classified);
+                var index = $scope.classifieds.indexOf(classified);
                 vm.classifieds.splice(index, 1);
             }, function() {
                 
