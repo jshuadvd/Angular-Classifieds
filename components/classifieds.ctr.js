@@ -8,6 +8,8 @@
         var vm = this;   
         
         vm.categories;
+        vm.classified;
+        vm.classifieds;
         vm.openSideBar = openSideBar;
         vm.closedSideBar = closedSideBar;
         vm.saveClassified = saveClassified;
@@ -15,9 +17,7 @@
         vm.saveEdit = saveEdit;
         vm.deleteClassified = deleteClassified;
         
-        vm.classifieds;
         vm.editing;
-        vm.classified;
              
         classifiedsFactory.getClassifieds()
         .then(function(response) {
