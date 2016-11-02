@@ -7,6 +7,7 @@
         
         var vm = this;   
         
+        vm.categories;
         vm.openSideBar = openSideBar;
         vm.closedSideBar = closedSideBar;
         vm.saveClassified = saveClassified;
@@ -15,7 +16,6 @@
         vm.deleteClassified = deleteClassified;
         
         vm.classifieds;
-        vm.categories;
         vm.editing;
         vm.classified;
              
