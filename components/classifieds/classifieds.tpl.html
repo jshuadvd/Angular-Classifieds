@@ -65,8 +65,8 @@ md-component-id="left">
         </md-input-container>
         
         <md-button ng-if="!editing" ng-click="vm.saveClassified(classified)" class="md-primary">Save</md-button>
-        <md-button ng-click="saveEdit()" ng-if="editing" class="md-primary">Edit</md-button>
-        <md-button class="md-warn" ng-click="closeSideBar()">Cancel</md-button>      
+        <md-button ng-click="vm.saveEdit()" ng-if="editing" class="md-primary">Edit</md-button>
+        <md-button class="md-warn" ng-click="vm.closeSideBar()">Cancel</md-button>      
         <pre>{{classified | json}}</pre>
     </form>    
 </md-content> 
