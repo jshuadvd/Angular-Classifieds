@@ -10,10 +10,10 @@
         vm.categories;
         vm.classified;
         vm.classifieds;
+        vm.closedSideBar = closedSideBar;
+        vm.deleteClassified = deleteClassified;
         vm.editing;
         vm.openSideBar = openSideBar;
-        vm.deleteClassified = deleteClassified;
-        vm.closedSideBar = closedSideBar;
         vm.saveClassified = saveClassified;
         vm.editClassified = editClassified;
         vm.saveEdit = saveEdit;
