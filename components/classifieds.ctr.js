@@ -12,11 +12,11 @@
         vm.classifieds;
         vm.editing;
         vm.openSideBar = openSideBar;
+        vm.deleteClassified = deleteClassified;
         vm.closedSideBar = closedSideBar;
         vm.saveClassified = saveClassified;
         vm.editClassified = editClassified;
         vm.saveEdit = saveEdit;
-        vm.deleteClassified = deleteClassified;
         
              
         classifiedsFactory.getClassifieds()
