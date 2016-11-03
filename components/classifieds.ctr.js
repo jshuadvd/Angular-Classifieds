@@ -13,9 +13,9 @@
         vm.closedSideBar = closedSideBar;
         vm.deleteClassified = deleteClassified;
         vm.editing;
+        vm.editClassified = editClassified;
         vm.openSideBar = openSideBar;
         vm.saveClassified = saveClassified;
-        vm.editClassified = editClassified;
         vm.saveEdit = saveEdit;
         
              
