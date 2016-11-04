@@ -13,7 +13,7 @@ angular
         controller: 'classifiedsCtrl as vm'
     })    
     .state('classifieds', {
-        url: '/classifieds'
+        url: 'classifieds/new'
         template: 'components/classifieds/classifieds.tpl.html',
         controller: 'classifiedsCtrl as vm'
     })    
