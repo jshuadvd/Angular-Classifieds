@@ -15,6 +15,6 @@ angular
     .state('classifieds.new', {
         url: '/new'
         template: 'components/classifieds/new/classifieds.new.tpl.html',
-        controller: 'classifiedsCtrl as vm'
+        controller: 'newClassifiedsCtrl as vm'
     })    
   })
