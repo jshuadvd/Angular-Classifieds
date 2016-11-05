@@ -6,5 +6,6 @@
 		.module('ngClassifieds')
 		.controller('newClassifiedCtrl', function($mdSidenav, $mdDialog, classifiedsFactory) {
 			
+			var vm = this;
 		})
 })();
