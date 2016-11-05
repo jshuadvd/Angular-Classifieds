@@ -4,7 +4,7 @@
 	
 	angular
 		.module('ngClassifieds')
-		.controller('newClassifiedCtrl', function() {
+		.controller('newClassifiedCtrl', function($mdSidenav, $mdDialog,) {
 			
 		})
 })();
