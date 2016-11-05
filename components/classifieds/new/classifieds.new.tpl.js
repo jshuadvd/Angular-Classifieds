@@ -4,5 +4,7 @@
 	
 	angular
 		.module('ngClassifieds')
-		.controller('newClassifiedCtrl')
+		.controller('newClassifiedCtrl', function() {
+			
+		})
 })();
