@@ -4,4 +4,5 @@
 	
 	angular
 		.module('ngClassifieds')
+		.controller('newClassifiedCtrl')
 })();
