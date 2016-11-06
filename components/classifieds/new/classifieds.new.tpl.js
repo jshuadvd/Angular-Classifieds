@@ -7,5 +7,8 @@
 		.controller('newClassifiedCtrl', function($mdSidenav, $mdDialog, classifiedsFactory) {
 			
 			var vm = this;
+			
+			$mdSidenav('left').open();
+			
 		})
 })();
